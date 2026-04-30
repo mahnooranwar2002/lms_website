@@ -3,6 +3,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  --PrimaryColour:#4A34FF;
 }
 
 @theme inline {
@@ -11,16 +13,31 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
+@theme {
+  /* Yahan aapka primary color register hoga */
+  --color-primary: #4A34FF;
+  
+ --color-bannar:#F4F6F9;
+  --color-text:#555555;
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+      --PrimaryColour:#4A34FF;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: #ffffff;
+  color:black;
   font-family: Arial, Helvetica, sans-serif;
+}
+#bannarSec{
+background: 
+              url("/bannar2.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
