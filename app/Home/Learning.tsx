@@ -1,5 +1,6 @@
 import { Camera, Star } from "lucide-react";
 import React from "react";
+import CrousesList from "./CrousesList";
 
 const Learning = () => {
   return (
@@ -19,6 +20,7 @@ const Learning = () => {
           <span>
             {" "}
             <img src="1.png" alt="" className="inline" /> By Hamza Ali Shah
+        
           </span>
           <h3 className="text-black font-bold text-2xl">
             The complete guide to build restful API
@@ -35,13 +37,14 @@ const Learning = () => {
               <span className="font-semibold ">Online Students</span>
               <img src="/avator.png" alt="" className="w-40 mt-2" />
             </li>
-            <li className="">
-              <button className="border-primary border px-6 py-3 rounded-2xl text-primary ">
+            <li className="w-6/12">
+              <button className="border-primary w-full border  px-2 lg:px-6 py-3 rounded-2xl text-primary ">
                 <Camera className="inline mr-5" />
                 Join Now
               </button>
             </li>
           </ul>
+         
         </div>
       </section>
     </div>

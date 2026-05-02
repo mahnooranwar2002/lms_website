@@ -3,8 +3,8 @@ import CrousesList from "./CrousesList";
 
 const Crouses = () => {
   return (
-    <div>
-<section className="grid lg:grid-cols-2 lg:mt-20 mt-8 bg-bannar lg:py-10 p-5 container mx-auto items-center justify-center text-center lg:text-left">
+    <div className="bg-bannar">
+<section className="grid lg:grid-cols-2 lg:mt-20 mt-8  lg:py-10 p-5 container mx-auto items-center justify-center text-center lg:text-left">
    
   <div className="flex flex-col items-center lg:items-start">
     <span className="text-primary flex items-center gap-2">
@@ -26,7 +26,9 @@ const Crouses = () => {
     </li>
     </ul>
   </div>
+
 </section>
+  <CrousesList/>
     </div>
   );
 };
