@@ -20,7 +20,7 @@ const Testimonials = () => {
 Edplus</h2>
     <img src="/titleLink.svg" alt="" className="inline w-fit" />
   </div>
- <div className='flex mt-10  gap-5 lg:flex-row flex-col p-5'>
+ <div className='flex  lg:mt-10 mt-5  gap-5 lg:flex-row flex-col p-5'>
    <div id='box2' className='lg:w-4/12 w-full rounded-2xl  overflow-hidden h-64'> 
 
   
