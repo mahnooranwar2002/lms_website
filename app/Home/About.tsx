@@ -41,7 +41,7 @@ const About = () => {
           <img
             src="4.jpg"
             alt=""
-            className="rounded-[250] h-150 border-10 border-white absolute top-10 lg:left-39 left-5"
+            className="rounded-[250] h-150 border-10 border-white absolute top-10 lg:left-39 md:left-50  left-5"
           />
         </div>
         <div className="lg:w-6/12  p-5 w-full">

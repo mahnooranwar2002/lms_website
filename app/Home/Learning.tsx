@@ -3,7 +3,7 @@ import React from "react";
 
 const Learning = () => {
   return (
-    <div className="container  mx-auto text-center mt-14 ">
+    <div className="container  mx-auto text-center mt-14 lg:p-0 p-5">
       <span className="text-sm text-primary uppercase font-bold">
         Live Class
       </span>
