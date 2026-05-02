@@ -11,12 +11,12 @@ const Testimonials = () => {
     
     
     <section className='container mx-auto'>
-        <div className="flex flex-col items-center lg:items-start">
+        <div className="flex flex-col lg:p-0 p-5 items-center lg:items-start">
     <span className="text-primary flex items-center gap-2">
       <img src="/title-icon.svg" className="w-15 inline border p-2 rounded-[45%] border-primary" alt="" /> 
       Testimonials
     </span>
-    <h2 className="text-black my-2 text-3xl font-bold">People’s Say About Our
+    <h2 className="text-black my-2 lg:text-3xl text-lg font-bold">People’s Say About Our
 Edplus</h2>
     <img src="/titleLink.svg" alt="" className="inline w-fit" />
   </div>

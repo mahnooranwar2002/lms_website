@@ -7,7 +7,7 @@ const Crouses = () => {
 <section className="grid lg:grid-cols-2 lg:mt-20 mt-8  lg:py-10 p-5 container mx-auto items-center justify-center text-center lg:text-left">
    
   <div className="flex flex-col items-center lg:items-start">
-    <span className="text-primary flex items-center gap-2">
+    <span className="text-primary flex  items-center gap-2">
       <img src="/title-icon.svg" className="w-15 inline border p-2 rounded-[45%] border-primary" alt="" /> 
       Courses
     </span>
