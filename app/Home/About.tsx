@@ -41,7 +41,7 @@ const About = () => {
           <img
             src="4.jpg"
             alt=""
-            className="rounded-[250] h-150 border-10 border-white absolute top-15 lg:left-39 left-25"
+            className="rounded-[250] h-150 border-10 border-white absolute top-10 lg:left-39 left-20"
           />
         </div>
         <div className="lg:w-6/12  p-5 w-full">
@@ -59,11 +59,11 @@ const About = () => {
             nurturing intellectual curiosity, promoting academic excellence,
             cultivating a dynamic campus community.
           </p>
-          <ul className="flex  gap-y-5 flex-wrap lg:gap-x-5   p-4 mt-5">
+          <ul className="flex  gap-y-5  flex-wrap lg:gap-x-5 gap-0.5 py-4 mt-5">
             {features.map((item, index) => (
               <li
                 key={index}
-                className="group  w-1/2 md:w-5/12 p-4 border border-[#5555] rounded-2xl transition-all cursor-pointer"
+                className="group  w-full md:w-5/12 p-3 border border-[#5555] rounded-2xl transition-all cursor-pointer"
               >
                 <h4 className="text-[#555555] text-xs font-bold">
                   <i className={`${item.icon} text-primary`}></i> {item.title}
@@ -75,7 +75,9 @@ const About = () => {
 
         </div>
       </div>
-      <FeaturesList/>
+    <div className="p-5">
+        <FeaturesList/>
+    </div>
     </section>
   );
 };
