@@ -41,4 +41,14 @@ background:
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+};
+#box2{
+background: 
+              url("/bannar2.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.border-container {
+  border: 1px solid #ff0000; /* Aapka pasandida color */
 }

@@ -39,7 +39,7 @@ const CrousesList = () => {
           <img src="/1.jpg" alt="" className="w-full rounded-2xl" />
         </div>
         <div className="px-2 ">
-          <h4 className="font-bold text-xl my-5">
+          <h4 className="font-bold lg:text-xl text-lg my-5">
             Learn Machine Learning Practically with Python
           </h4>
           <ul className="flex gap-5 my-4">
@@ -67,7 +67,7 @@ const CrousesList = () => {
           <img src="/1.jpg" alt="" className="w-full rounded-2xl" />
         </div>
         <div className="px-2 ">
-          <h4 className="font-bold text-xl my-5">
+          <h4 className="font-bold lg:text-xl text-lg my-5">
             Learn Machine Learning Practically with Python
           </h4>
           <ul className="flex gap-5 my-4">
@@ -82,7 +82,7 @@ const CrousesList = () => {
             <li className="text-primary font-bold"> 4000 Rs/-</li>
             <li className="text-primary font-bold">
               {" "}
-              <img src="1.png" alt="" className="inline" /> By Hamza Ali Shah
+              <img src="/1.png" alt="" className="inline" /> By Hamza Ali Shah
             </li>
           </ul>
         </div>
@@ -95,7 +95,7 @@ const CrousesList = () => {
           <img src="/1.jpg" alt="" className="w-full rounded-2xl" />
         </div>
         <div className="px-2 ">
-          <h4 className="font-bold text-xl my-5">
+          <h4 className="font-bold lg:text-xl text-lg my-5">
             Learn Machine Learning Practically with Python
           </h4>
           <ul className="flex gap-5 my-4">
@@ -110,7 +110,7 @@ const CrousesList = () => {
             <li className="text-primary font-bold"> 4000 Rs/-</li>
             <li className="text-primary font-bold">
               {" "}
-              <img src="1.png" alt="" className="inline" /> By Hamza Ali Shah
+              <img src="/1.png" alt="" className="inline" /> By Hamza Ali Shah
             </li>
           </ul>
         </div>
