@@ -18,6 +18,7 @@
   --color-primary: #4A34FF;
   
  --color-bannar:#F4F6F9;
+  --color-bannar:#F4F6F9;
   --color-text:#555555;
   --color-gold:#FF9c00;
 }
@@ -51,4 +52,11 @@ background:
 }
 .border-container {
   border: 1px solid #ff0000; /* Aapka pasandida color */
+}
+#footer{
+  background: 
+              url("/footer.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
