@@ -22,7 +22,7 @@ const FeaturesList = () => {
   
   ]
   return (
-    <div className='mt-20 flex px-5 flex-row lg:flex-nowrap flex-wrap lg:gap-0 gap-y-4 justify-items-center items-center rounded-2xl py-15 bg-primary container mx-auto'>
+    <div className='lg:mt-20 mt-5 flex px-5 flex-row lg:flex-nowrap flex-wrap lg:gap-0 gap-y-4 justify-items-center items-center rounded-2xl py-15 bg-primary container mx-auto'>
     {data.map((r, index) => {
   // Icon ko Capital variable mein assign karein
   const IconComponent = r.icon;
