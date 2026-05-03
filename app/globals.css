@@ -60,3 +60,12 @@ background:
   background-repeat: no-repeat;
   background-size: cover;
 }
+#bannarPages{
+
+background: 
+              url("../public/main-banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
