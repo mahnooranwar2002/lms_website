@@ -29,9 +29,9 @@ const About = () => {
     },
   ];
   return (
-    <section className="bg-bannar py-20 ">
-      <div className="container mx-auto flex gap-10 lg:flex-row flex-col lg:p-0 p-5">
-        <div className="lg:w-6/12 w-full relative">
+    <section className="bg-bannar lg:py-20 ">
+      <div className="container mx-auto flex lg:gap-10 lg:flex-row flex-col lg:p-0 p-5">
+        <div className="lg:w-6/12 w-full relative lg:block hidden">
           <img
             src="3.jpg"
             alt=""
@@ -44,7 +44,7 @@ const About = () => {
             className="rounded-[250] h-150 border-10 border-white absolute top-10 lg:left-39 md:left-50  left-5"
           />
         </div>
-        <div className="lg:w-6/12  p-5 w-full">
+        <div className="lg:w-6/12   p-5 w-full">
           <h3 className="font-bold text-primary text-xl">
             <img src="/title-icon.svg" alt="" height={40} className="inline" />
             About Our Edplus
@@ -59,11 +59,11 @@ const About = () => {
             nurturing intellectual curiosity, promoting academic excellence,
             cultivating a dynamic campus community.
           </p>
-          <ul className="flex  gap-y-5  flex-wrap lg:gap-x-5 gap-0.5 py-4 mt-5">
+          <ul className="flex  gap-y-5  flex-wrap lg:gap-x-5 py-4 mt-5">
             {features.map((item, index) => (
               <li
                 key={index}
-                className="group  w-full md:w-5/12 p-3 border border-[#5555] rounded-2xl transition-all cursor-pointer"
+                className="group lg:w-5/12 w-6/12 p-3 lg:border border-[#5555] rounded-2xl transition-all cursor-pointer"
               >
                 <h4 className="text-[#555555] text-xs font-bold">
                   <i className={`${item.icon} text-primary`}></i> {item.title}
@@ -75,7 +75,7 @@ const About = () => {
 
         </div>
       </div>
-    <div className="p-5">
+    <div className="lg:p-5  px-5">
         <FeaturesList/>
     </div>
     </section>

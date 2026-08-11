@@ -19,13 +19,13 @@ const CerfitcationSec = () => {
         }
     ]
   return (
-<div className="grid grid-cols-2 lg:grid-cols-4 gap-4 my-4 container mx-auto"> 
+<div className="grid p-5 grid-cols-2 lg:grid-cols-4 gap-4 my-4 container mx-auto"> 
   {certificationData.map((r, index) => (
     <div key={index} className="rounded-2xl transition-all hover:border-primary text-center border-bannar border-2 p-4 lg:p-8">
-      <img src={r.img} alt="" className="inline" />
-      <h3 className="text-black font-bold my-3 text-sm lg:text-base">{r.title}</h3>
+      <img src={r.img} alt="" className="inline h-10 w-10" />
+      <h3 className="text-black font-bold my-3 text-xs lg:text-base">{r.title}</h3>
       <p className="text-text text-xs lg:text-sm mb-2">{r.para}</p>
-      <a href="" className='text-primary '>Read more</a>
+      <a href="" className='text-primary text-xs lg:text-base '>Read more</a>
     </div>
   ))}
 </div>

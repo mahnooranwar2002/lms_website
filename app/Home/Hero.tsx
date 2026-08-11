@@ -4,15 +4,18 @@ import { BookText } from 'lucide-react';
 const Hero = () => {
   return (
     <div>
-        <div className="lg:h-screen" id="bannarSec">
-        <div className="h-full bg-[#4c34ff4f] px-5">
-          <div className="container mx-auto flex lg:flex-row flex-col ">
-            <div className="lg:w-6/12 mt-25 w-full">
-              <span className="text-white flex items-center justify-center lg:w-2/6 w-3/6 rounded-2xl  py-2 my-5 gap-5 bg-primary">
+        <div className="lg:h-screen " id="bannarSec">
+        <div className="h-full  bg-[#4c34ff4f] px-5">
+          <div className="container mx-auto flex lg:flex-row flex-col lg:px-10 px-5 pt-10 ">
+            <div className="lg:w-6/12 lg:mt-25 mt-10 w-full  ">
+              <span className="text-white flex items-center justify-center lg:w-2/6 w-3/6 rounded-2xl  py-2 my-5 lg:gap-5 gap-2 bg-primary">
                 <GraduationCap /> Keep Learning
               </span>
-              <h3 className="lg:text-7xl text-5xl font-bold text-white">
-                Best Online Courses From EduPlus
+              <h3 className="lg:text-6xl text-5xl font-bold text-white">
+                Best Online 
+                <br/>Courses 
+                <br/>
+                From EduPlus
               </h3>
               <p className="text-white my-5">
                 Remember to tailor the section names to fit the specific needs
@@ -22,7 +25,7 @@ const Hero = () => {
                 Explore Crouses
               </button>
             </div>
-             <div className="lg:w-6/12 w-full mt-25 w-full flex gap-5 lg:flex-row flex-col">
+             <div className="lg:w-6/12 w-full  lg:mt-25 mt-10 flex gap-5 lg:flex-row flex-col">
              <div className=" lg:w-3/6 w-full p-5 ">
            <div className="bg-white rounded-2xl py-10 flex items-center justify-center flex-col">
             <GraduationCap size={50} className="text-primary"/>

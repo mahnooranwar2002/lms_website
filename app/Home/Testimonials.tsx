@@ -96,7 +96,7 @@ const Testimonials = () => {
                   </div>
                 </div>
               </div>
-              <div className=" flex gap-5 py-10 justify-center items-center h-65 px-5">
+              <div className=" flex  gap-5 py-10 justify-center items-center h-65 px-5">
                 {/* Left Box */}
                 <div className="p-7 w-6/12 border  h-65    rounded-xl  border-[#dce1f5]">
                   {/* justify-between ko hata kar justify-start aur gap use karein */}
@@ -114,7 +114,7 @@ const Testimonials = () => {
                     </div>
                     <p className="text-[#555555]">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Exercitationem, molestias.
+                      Exercitationem, 
                     </p>
                   </div>
                 </div>
