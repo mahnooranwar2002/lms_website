@@ -70,7 +70,7 @@ from you!</h3>
         placeholder='Enter Phone' 
     />
     <textarea 
-        rows="3"
+        rows={3}
         className="border-0 border-b-2 w-full border-gray-400 bg-transparent pb-2 placeholder:text-gray-500 focus:border-[#4a34ff] outline-none transition-colors resize-none" 
         placeholder='Enter message'
     ></textarea>
